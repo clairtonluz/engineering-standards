@@ -1,62 +1,66 @@
 # Engineering Standards Skills
 
-This repository is the source of four Codex skills. It is not meant to be the repository where the skills are used.
-
-The intended workflow is:
-- download or clone this repository from GitHub
-- copy the skill files into another repository
-- use Codex from that target repository
-
-## What This Repository Contains
-
-- `AGENTS.md`
-  Reference instructions showing how a repository can require the skill set.
-- `.codex/skills/solid/SKILL.md`
-  SOLID-focused design guidance.
-- `.codex/skills/clean-code/SKILL.md`
-  Readability and maintainability guidance.
-- `.codex/skills/clean-architecture/SKILL.md`
-  Architectural boundary guidance.
-- `.codex/skills/secure-by-default/SKILL.md`
-  Security-focused implementation guidance.
-
-## What The Skills Do
-
-The four skills are split by concern:
+This repository contains four reusable engineering standards skills:
 
 - `solid`
-  Applies SRP, OCP, LSP, ISP, and DIP when code structure or abstractions are involved.
 - `clean-code`
-  Improves naming, cohesion, readability, local refactoring quality, and focused diffs.
 - `clean-architecture`
-  Keeps business rules in the correct layer and dependencies pointing inward.
 - `secure-by-default`
-  Preserves validation, authorization, least privilege, and safe data handling.
 
-## Download From GitHub
+They are meant to be installed into Codex or referenced from Claude Code in another repository.
 
-Clone the repository:
+## What Is In This Repository
+
+- `AGENTS.md`
+  Reference repository instructions for Codex.
+- `.codex/skills/solid/SKILL.md`
+- `.codex/skills/clean-code/SKILL.md`
+- `.codex/skills/clean-architecture/SKILL.md`
+- `.codex/skills/secure-by-default/SKILL.md`
+
+## Skill Overview
+
+- `solid`
+  Focuses on SRP, OCP, LSP, ISP, and DIP.
+- `clean-code`
+  Focuses on naming, readability, cohesion, and low-risk refactoring.
+- `clean-architecture`
+  Focuses on layer ownership and dependency direction.
+- `secure-by-default`
+  Focuses on validation, authorization, secrets, and safe defaults.
+
+## Install On Codex
+
+Codex uses skills from `~/.codex/skills/` for user-wide installation, or from `.codex/skills/` inside a specific project.
+
+### Option 1: Install For Your User Profile
+
+This makes the four skills available to all projects.
 
 ```bash
-git clone git@github.com:clairtonluz/engineering-standards.git
-cd engineering-standards
+git clone https://github.com/clairtonluz/engineering-standards.git ~/.codex/engineering-standards
+mkdir -p ~/.codex/skills
+cp -R ~/.codex/engineering-standards/.codex/skills/* ~/.codex/skills/
 ```
 
-Or download the ZIP from GitHub and extract it.
+After that, Codex can discover these skills from your user profile.
 
-## How To Use These Skills In Another Repository
+If you also want default instructions across projects, you can add guidance to your global Codex instructions separately. The skills themselves live in `~/.codex/skills/`.
 
-Copy these files from this repository into the target repository:
+### Option 2: Install In One Specific Project
 
-```text
-AGENTS.md
-.codex/skills/solid/SKILL.md
-.codex/skills/clean-code/SKILL.md
-.codex/skills/clean-architecture/SKILL.md
-.codex/skills/secure-by-default/SKILL.md
+This keeps the skills local to a single repository.
+
+From inside the target repository:
+
+```bash
+mkdir -p .codex/skills
+git clone https://github.com/clairtonluz/engineering-standards.git .tmp/engineering-standards
+cp -R .tmp/engineering-standards/.codex/skills/* .codex/skills/
+cp .tmp/engineering-standards/AGENTS.md ./AGENTS.md
 ```
 
-Your target repository should end up with this structure:
+Your project should then look like this:
 
 ```text
 your-project/
@@ -73,56 +77,81 @@ your-project/
             └── SKILL.md
 ```
 
-Then start Codex from the target repository. Codex will read that repository's `AGENTS.md` and use the four skills from `.codex/skills/`.
+If the target project already has an `AGENTS.md`, merge the relevant instructions instead of overwriting the file.
 
-## If The Target Repository Already Has AGENTS.md
+## Install On Claude Code
 
-Do not overwrite it blindly.
+Claude Code does not use Codex skills as a native feature. The practical equivalent is to keep this repository somewhere on disk and reference the markdown guidance from `CLAUDE.md`.
 
-Merge the instructions so the target repository keeps its existing repository-specific rules while also referencing these engineering-standard skills.
+### Option 1: Install For Your User Profile
 
-At minimum, the target repository should:
-- list the four skills as available skills
-- instruct Codex to use them together when appropriate, or always use them if that is the repository policy
+This makes the standards available as global Claude Code guidance.
 
-## Example Usage In A Target Repository
+```bash
+git clone https://github.com/clairtonluz/engineering-standards.git ~/.claude/engineering-standards
+```
 
-After copying the files into another repository, run Codex there and ask for work such as:
+Then create or update `~/.claude/CLAUDE.md`:
+
+```md
+# Engineering Standards
+
+Apply these engineering standards together when working on code:
+
+- @~/.claude/engineering-standards/.codex/skills/solid/SKILL.md
+- @~/.claude/engineering-standards/.codex/skills/clean-code/SKILL.md
+- @~/.claude/engineering-standards/.codex/skills/clean-architecture/SKILL.md
+- @~/.claude/engineering-standards/.codex/skills/secure-by-default/SKILL.md
+```
+
+### Option 2: Install In One Specific Project
+
+This keeps the standards scoped to one repository.
+
+From inside the target repository:
+
+```bash
+git clone https://github.com/clairtonluz/engineering-standards.git .tools/engineering-standards
+```
+
+Then create or update `CLAUDE.md` in the target project:
+
+```md
+# Project Instructions
+
+Apply these engineering standards together:
+
+- @.tools/engineering-standards/.codex/skills/solid/SKILL.md
+- @.tools/engineering-standards/.codex/skills/clean-code/SKILL.md
+- @.tools/engineering-standards/.codex/skills/clean-architecture/SKILL.md
+- @.tools/engineering-standards/.codex/skills/secure-by-default/SKILL.md
+```
+
+If the project already has a `CLAUDE.md`, merge these references into the existing file.
+
+## Typical Usage
+
+After installation, ask for work such as:
 
 - `review this service for clean architecture violations`
 - `fix this bug with the smallest safe change`
 - `refactor this use case to keep business logic out of the controller`
 - `add tests for this behavior change`
-- `write technical documentation following the engineering standards`
+- `check this flow for security risks`
 
-## When To Use These Skills
+## Updating
 
-Use them in target repositories for:
-- bug fixes
-- feature work
-- refactoring
-- code review
-- architecture review
-- test updates
-- technical documentation
+To update a cloned installation:
 
-It is especially useful when you want:
-- strict layer ownership
-- secure-by-default changes
-- minimal, reviewable diffs
-- consistent engineering standards across repositories
+```bash
+git -C ~/.codex/engineering-standards pull
+cp -R ~/.codex/engineering-standards/.codex/skills/* ~/.codex/skills/
+```
 
-## Customizing The Skills
+Or, if you installed for Claude Code:
 
-If you want to change the skill definitions themselves, edit:
+```bash
+git -C ~/.claude/engineering-standards pull
+```
 
-- `.codex/skills/solid/SKILL.md`
-- `.codex/skills/clean-code/SKILL.md`
-- `.codex/skills/clean-architecture/SKILL.md`
-- `.codex/skills/secure-by-default/SKILL.md`
-
-If you want to change how another repository applies the skills, edit that repository's:
-
-- `AGENTS.md`
-
-The `SKILL.md` files define the standards. `AGENTS.md` defines how a repository tells Codex to use them.
+For project-local installs, pull inside the cloned project-local copy and re-copy files if needed.
