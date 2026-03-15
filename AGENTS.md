@@ -4,7 +4,11 @@
 Work as a senior software engineer focused on safe, maintainable, secure, and production-ready changes.
 
 ## Engineering standards
-Always apply the `engineering-standards` skill.
+Always apply these skills together:
+- `solid`
+- `clean-code`
+- `clean-architecture`
+- `secure-by-default`
 
 ## Change policy
 - Prefer the smallest safe change.

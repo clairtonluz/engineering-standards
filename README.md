@@ -1,6 +1,6 @@
-# Engineering Standards Skill
+# Engineering Standards Skills
 
-This repository is the source of a Codex skill. It is not meant to be the repository where the skill is used.
+This repository is the source of four Codex skills. It is not meant to be the repository where the skills are used.
 
 The intended workflow is:
 - download or clone this repository from GitHub
@@ -10,19 +10,28 @@ The intended workflow is:
 ## What This Repository Contains
 
 - `AGENTS.md`
-  Reference instructions showing how a repository can require the `engineering-standards` skill.
-- `.codex/skills/engineering-standards/SKILL.md`
-  The skill definition with the actual engineering rules.
+  Reference instructions showing how a repository can require the skill set.
+- `.codex/skills/solid/SKILL.md`
+  SOLID-focused design guidance.
+- `.codex/skills/clean-code/SKILL.md`
+  Readability and maintainability guidance.
+- `.codex/skills/clean-architecture/SKILL.md`
+  Architectural boundary guidance.
+- `.codex/skills/secure-by-default/SKILL.md`
+  Security-focused implementation guidance.
 
-## What The Skill Does
+## What The Skills Do
 
-The skill guides Codex to:
-- apply SOLID, Clean Code, and Clean Architecture principles
-- make the smallest safe change
-- keep business rules in the correct layer
-- preserve validation, authorization, and sensitive-data protections
-- add or update relevant tests for behavior changes
-- finish with a concise review summary covering root cause, risks, tests, and trade-offs
+The four skills are split by concern:
+
+- `solid`
+  Applies SRP, OCP, LSP, ISP, and DIP when code structure or abstractions are involved.
+- `clean-code`
+  Improves naming, cohesion, readability, local refactoring quality, and focused diffs.
+- `clean-architecture`
+  Keeps business rules in the correct layer and dependencies pointing inward.
+- `secure-by-default`
+  Preserves validation, authorization, least privilege, and safe data handling.
 
 ## Download From GitHub
 
@@ -35,13 +44,16 @@ cd engineering-standards
 
 Or download the ZIP from GitHub and extract it.
 
-## How To Use This Skill In Another Repository
+## How To Use These Skills In Another Repository
 
 Copy these files from this repository into the target repository:
 
 ```text
 AGENTS.md
-.codex/skills/engineering-standards/SKILL.md
+.codex/skills/solid/SKILL.md
+.codex/skills/clean-code/SKILL.md
+.codex/skills/clean-architecture/SKILL.md
+.codex/skills/secure-by-default/SKILL.md
 ```
 
 Your target repository should end up with this structure:
@@ -51,21 +63,27 @@ your-project/
 ├── AGENTS.md
 └── .codex/
     └── skills/
-        └── engineering-standards/
+        ├── clean-architecture/
+        │   └── SKILL.md
+        ├── clean-code/
+        │   └── SKILL.md
+        ├── secure-by-default/
+        │   └── SKILL.md
+        └── solid/
             └── SKILL.md
 ```
 
-Then start Codex from the target repository. Codex will read that repository's `AGENTS.md` and use the skill from `.codex/skills/engineering-standards/SKILL.md`.
+Then start Codex from the target repository. Codex will read that repository's `AGENTS.md` and use the four skills from `.codex/skills/`.
 
 ## If The Target Repository Already Has AGENTS.md
 
 Do not overwrite it blindly.
 
-Merge the instructions so the target repository keeps its existing repository-specific rules while also referencing the `engineering-standards` skill.
+Merge the instructions so the target repository keeps its existing repository-specific rules while also referencing these engineering-standard skills.
 
 At minimum, the target repository should:
-- list `engineering-standards` as an available skill
-- instruct Codex to use it when appropriate, or always use it if that is the repository policy
+- list the four skills as available skills
+- instruct Codex to use them together when appropriate, or always use them if that is the repository policy
 
 ## Example Usage In A Target Repository
 
@@ -77,9 +95,9 @@ After copying the files into another repository, run Codex there and ask for wor
 - `add tests for this behavior change`
 - `write technical documentation following the engineering standards`
 
-## When To Use This Skill
+## When To Use These Skills
 
-Use it in target repositories for:
+Use them in target repositories for:
 - bug fixes
 - feature work
 - refactoring
@@ -94,14 +112,17 @@ It is especially useful when you want:
 - minimal, reviewable diffs
 - consistent engineering standards across repositories
 
-## Customizing The Skill
+## Customizing The Skills
 
-If you want to change the skill itself, edit:
+If you want to change the skill definitions themselves, edit:
 
-- `.codex/skills/engineering-standards/SKILL.md`
+- `.codex/skills/solid/SKILL.md`
+- `.codex/skills/clean-code/SKILL.md`
+- `.codex/skills/clean-architecture/SKILL.md`
+- `.codex/skills/secure-by-default/SKILL.md`
 
-If you want to change how another repository applies the skill, edit that repository's:
+If you want to change how another repository applies the skills, edit that repository's:
 
 - `AGENTS.md`
 
-`SKILL.md` defines the standards. `AGENTS.md` defines how a repository tells Codex to use them.
+The `SKILL.md` files define the standards. `AGENTS.md` defines how a repository tells Codex to use them.
