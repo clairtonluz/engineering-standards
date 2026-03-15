@@ -55,9 +55,11 @@ From inside the target repository:
 
 ```bash
 mkdir -p .codex/skills
-git clone https://github.com/clairtonluz/engineering-standards.git .tmp/engineering-standards
-cp -R .tmp/engineering-standards/.codex/skills/* .codex/skills/
-cp .tmp/engineering-standards/AGENTS.md ./AGENTS.md
+TMP_DIR="$(mktemp -d)"
+git clone https://github.com/clairtonluz/engineering-standards.git "$TMP_DIR/engineering-standards"
+cp -R "$TMP_DIR/engineering-standards/.codex/skills/"* .codex/skills/
+cp "$TMP_DIR/engineering-standards/AGENTS.md" ./AGENTS.md
+rm -rf "$TMP_DIR"
 ```
 
 Your project should then look like this:
@@ -111,7 +113,8 @@ This keeps the standards scoped to one repository.
 From inside the target repository:
 
 ```bash
-git clone https://github.com/clairtonluz/engineering-standards.git .tools/engineering-standards
+mkdir -p .claude
+git clone https://github.com/clairtonluz/engineering-standards.git .claude/engineering-standards
 ```
 
 Then create or update `CLAUDE.md` in the target project:
@@ -121,10 +124,10 @@ Then create or update `CLAUDE.md` in the target project:
 
 Apply these engineering standards together:
 
-- @.tools/engineering-standards/.codex/skills/solid/SKILL.md
-- @.tools/engineering-standards/.codex/skills/clean-code/SKILL.md
-- @.tools/engineering-standards/.codex/skills/clean-architecture/SKILL.md
-- @.tools/engineering-standards/.codex/skills/secure-by-default/SKILL.md
+- @.claude/engineering-standards/.codex/skills/solid/SKILL.md
+- @.claude/engineering-standards/.codex/skills/clean-code/SKILL.md
+- @.claude/engineering-standards/.codex/skills/clean-architecture/SKILL.md
+- @.claude/engineering-standards/.codex/skills/secure-by-default/SKILL.md
 ```
 
 If the project already has a `CLAUDE.md`, merge these references into the existing file.
