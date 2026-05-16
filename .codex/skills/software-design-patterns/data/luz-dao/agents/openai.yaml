@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz DAO"
+  short_description: "Encapsulate low-level persistence operations for a data source"
+  default_prompt: "Use $luz-dao to apply this design pattern to the current problem."

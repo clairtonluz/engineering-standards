@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Composite"
+  short_description: "Represent part-whole hierarchies so clients can treat individ..."
+  default_prompt: "Use $luz-composite to apply this design pattern to the current problem."

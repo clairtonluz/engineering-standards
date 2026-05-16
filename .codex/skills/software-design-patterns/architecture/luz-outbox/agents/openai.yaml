@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Outbox Pattern"
+  short_description: "Persist messages in the same transaction as state changes, th..."
+  default_prompt: "Use $luz-outbox to apply this design pattern to the current problem."

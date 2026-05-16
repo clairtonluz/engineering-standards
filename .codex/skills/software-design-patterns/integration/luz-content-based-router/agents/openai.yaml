@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Content-Based Router"
+  short_description: "Route messages by inspecting validated message content"
+  default_prompt: "Use $luz-content-based-router to apply this design pattern to the current problem."

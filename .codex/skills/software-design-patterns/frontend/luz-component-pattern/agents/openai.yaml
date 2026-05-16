@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Component Pattern"
+  short_description: "Build UI from focused, reusable components with explicit inpu..."
+  default_prompt: "Use $luz-component-pattern to apply this design pattern to the current problem."

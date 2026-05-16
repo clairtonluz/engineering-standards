@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Mediator"
+  short_description: "Centralize coordination between peers so they do not depend o..."
+  default_prompt: "Use $luz-mediator to apply this design pattern to the current problem."

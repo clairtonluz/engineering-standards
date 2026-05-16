@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Software Design Patterns Decision Guide"
+  short_description: "Choose the right design pattern skill."
+  default_prompt: "Use $luz-software-design-patterns-decision-guide to apply this design pattern to the current problem."

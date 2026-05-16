@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Backend for Frontend"
+  short_description: "Provide a backend tailored to a specific frontend experience"
+  default_prompt: "Use $luz-backend-for-frontend to apply this design pattern to the current problem."

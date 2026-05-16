@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Inbox Pattern"
+  short_description: "Track consumed messages to make message handling idempotent"
+  default_prompt: "Use $luz-inbox to apply this design pattern to the current problem."

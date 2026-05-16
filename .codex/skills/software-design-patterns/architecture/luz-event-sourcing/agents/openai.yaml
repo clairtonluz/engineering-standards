@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Event Sourcing"
+  short_description: "Persist domain events as the source of truth and derive state..."
+  default_prompt: "Use $luz-event-sourcing to apply this design pattern to the current problem."

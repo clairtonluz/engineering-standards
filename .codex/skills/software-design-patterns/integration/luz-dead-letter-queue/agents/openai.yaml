@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Dead Letter Queue"
+  short_description: "Capture messages that cannot be processed successfully after..."
+  default_prompt: "Use $luz-dead-letter-queue to apply this design pattern to the current problem."

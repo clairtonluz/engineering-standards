@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Event-Driven Architecture"
+  short_description: "Coordinate systems by publishing and reacting to events"
+  default_prompt: "Use $luz-event-driven-architecture to apply this design pattern to the current problem."

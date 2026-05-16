@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Message Translator"
+  short_description: "Convert messages between different schemas or protocols at a..."
+  default_prompt: "Use $luz-message-translator to apply this design pattern to the current problem."

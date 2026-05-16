@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Strategy"
+  short_description: "Select one interchangeable algorithm behind a stable interface"
+  default_prompt: "Use $luz-strategy to apply this design pattern to the current problem."

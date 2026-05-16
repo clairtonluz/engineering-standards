@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Proxy"
+  short_description: "Control access to another object through the same interface"
+  default_prompt: "Use $luz-proxy to apply this design pattern to the current problem."

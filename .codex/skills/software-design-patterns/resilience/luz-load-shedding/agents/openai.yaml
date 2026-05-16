@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Load Shedding"
+  short_description: "Intentionally reject lower-priority work when capacity is exh..."
+  default_prompt: "Use $luz-load-shedding to apply this design pattern to the current problem."

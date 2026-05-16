@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Interpreter"
+  short_description: "Define and evaluate a small language or expression grammar"
+  default_prompt: "Use $luz-interpreter to apply this design pattern to the current problem."

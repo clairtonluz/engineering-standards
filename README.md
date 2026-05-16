@@ -38,9 +38,11 @@ Codex uses skills from `~/.codex/skills/` for user-wide installation, or from `.
 This makes the four skills available to all projects.
 
 ```bash
-git clone https://github.com/clairtonluz/engineering-standards.git ~/.codex/engineering-standards
+TMP_DIR="$(mktemp -d)"
+git clone https://github.com/clairtonluz/engineering-standards.git "$TMP_DIR/engineering-standards"
 mkdir -p ~/.codex/skills
-cp -R ~/.codex/engineering-standards/.codex/skills/* ~/.codex/skills/
+cp -R "$TMP_DIR/engineering-standards/.codex/skills/"* ~/.codex/skills/
+rm -rf "$TMP_DIR"
 ```
 
 After that, Codex can discover these skills from your user profile.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz CQRS"
+  short_description: "Separate command models that change state from query models t..."
+  default_prompt: "Use $luz-cqrs to apply this design pattern to the current problem."

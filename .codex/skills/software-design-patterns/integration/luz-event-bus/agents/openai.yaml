@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Event Bus"
+  short_description: "Provide a shared mechanism for publishing and subscribing to..."
+  default_prompt: "Use $luz-event-bus to apply this design pattern to the current problem."

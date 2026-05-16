@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Backend-for-Frontend Token Handler"
+  short_description: "Keep OAuth tokens in a backend-for-frontend and expose only s..."
+  default_prompt: "Use $luz-bff-token-handler to apply this design pattern to the current problem."

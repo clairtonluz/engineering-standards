@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Prototype"
+  short_description: "Create new objects by copying a configured example instance"
+  default_prompt: "Use $luz-prototype to apply this design pattern to the current problem."

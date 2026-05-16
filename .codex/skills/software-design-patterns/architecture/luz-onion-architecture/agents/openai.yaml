@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Onion Architecture"
+  short_description: "Keep domain model at the center with dependencies pointing in..."
+  default_prompt: "Use $luz-onion-architecture to apply this design pattern to the current problem."

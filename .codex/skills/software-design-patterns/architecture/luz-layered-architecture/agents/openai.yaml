@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Layered Architecture"
+  short_description: "Organize code into layers with clear responsibilities and dep..."
+  default_prompt: "Use $luz-layered-architecture to apply this design pattern to the current problem."

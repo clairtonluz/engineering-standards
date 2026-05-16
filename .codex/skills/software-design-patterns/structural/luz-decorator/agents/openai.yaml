@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Decorator"
+  short_description: "Wrap an object to add behavior while preserving the same inte..."
+  default_prompt: "Use $luz-decorator to apply this design pattern to the current problem."

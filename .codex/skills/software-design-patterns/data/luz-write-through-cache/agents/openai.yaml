@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Write Through Cache"
+  short_description: "Write data through the cache path so cache and store are upda..."
+  default_prompt: "Use $luz-write-through-cache to apply this design pattern to the current problem."

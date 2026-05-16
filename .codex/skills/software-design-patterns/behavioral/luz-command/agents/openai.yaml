@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Command"
+  short_description: "Represent an operation as an object or message that can be ha..."
+  default_prompt: "Use $luz-command to apply this design pattern to the current problem."

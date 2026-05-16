@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Strangler Security Migration"
+  short_description: "Migrate legacy security behavior incrementally while preservi..."
+  default_prompt: "Use $luz-strangler-security-migration to apply this design pattern to the current problem."

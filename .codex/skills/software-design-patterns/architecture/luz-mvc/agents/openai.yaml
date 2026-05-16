@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz MVC"
+  short_description: "Separate model, view, and controller responsibilities for UI-..."
+  default_prompt: "Use $luz-mvc to apply this design pattern to the current problem."

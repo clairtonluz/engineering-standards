@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Specification"
+  short_description: "Name and compose business predicates for validation, selectio..."
+  default_prompt: "Use $luz-specification to apply this design pattern to the current problem."

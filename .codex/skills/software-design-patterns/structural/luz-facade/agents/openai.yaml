@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Facade"
+  short_description: "Provide a small, simple interface over a larger subsystem"
+  default_prompt: "Use $luz-facade to apply this design pattern to the current problem."

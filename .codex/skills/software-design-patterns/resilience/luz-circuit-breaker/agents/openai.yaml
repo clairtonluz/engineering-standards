@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Circuit Breaker"
+  short_description: "Stop calling an unhealthy dependency temporarily so the syste..."
+  default_prompt: "Use $luz-circuit-breaker to apply this design pattern to the current problem."

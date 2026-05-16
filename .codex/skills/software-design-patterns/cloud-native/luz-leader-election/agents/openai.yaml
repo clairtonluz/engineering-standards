@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Leader Election"
+  short_description: "Elect one active instance among replicas to perform singleton..."
+  default_prompt: "Use $luz-leader-election to apply this design pattern to the current problem."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz API Gateway"
+  short_description: "Provide an edge entry point for routing, protocol translation..."
+  default_prompt: "Use $luz-api-gateway to apply this design pattern to the current problem."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Serverless Architecture"
+  short_description: "Run application capabilities on managed event-driven compute..."
+  default_prompt: "Use $luz-serverless-architecture to apply this design pattern to the current problem."

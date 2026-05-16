@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz MVVM"
+  short_description: "Use a view model to expose observable presentation state to a..."
+  default_prompt: "Use $luz-mvvm to apply this design pattern to the current problem."

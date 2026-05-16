@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz SOA"
+  short_description: "Expose reusable enterprise services through governed contracts"
+  default_prompt: "Use $luz-soa to apply this design pattern to the current problem."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Bulkhead"
+  short_description: "Isolate resources so failure or saturation in one area does n..."
+  default_prompt: "Use $luz-bulkhead to apply this design pattern to the current problem."

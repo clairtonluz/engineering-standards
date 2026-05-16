@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Request-Reply"
+  short_description: "Send a request message and correlate the asynchronous reply"
+  default_prompt: "Use $luz-request-reply to apply this design pattern to the current problem."

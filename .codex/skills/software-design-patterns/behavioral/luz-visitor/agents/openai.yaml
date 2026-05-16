@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Visitor"
+  short_description: "Add operations over a stable object structure without changin..."
+  default_prompt: "Use $luz-visitor to apply this design pattern to the current problem."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Backpressure"
+  short_description: "Make producers slow down or stop when consumers cannot keep up"
+  default_prompt: "Use $luz-backpressure to apply this design pattern to the current problem."

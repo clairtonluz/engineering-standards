@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Bridge"
+  short_description: "Separate an abstraction from its implementation so both can v..."
+  default_prompt: "Use $luz-bridge to apply this design pattern to the current problem."

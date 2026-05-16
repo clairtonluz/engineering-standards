@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Saga Pattern"
+  short_description: "Coordinate a distributed business transaction through local t..."
+  default_prompt: "Use $luz-saga to apply this design pattern to the current problem."

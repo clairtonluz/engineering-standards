@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Message Broker"
+  short_description: "Route, buffer, and deliver messages between producers and con..."
+  default_prompt: "Use $luz-message-broker to apply this design pattern to the current problem."

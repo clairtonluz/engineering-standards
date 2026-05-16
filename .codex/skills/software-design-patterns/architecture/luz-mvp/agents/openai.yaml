@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz MVP"
+  short_description: "Separate a passive view from a presenter that owns presentati..."
+  default_prompt: "Use $luz-mvp to apply this design pattern to the current problem."

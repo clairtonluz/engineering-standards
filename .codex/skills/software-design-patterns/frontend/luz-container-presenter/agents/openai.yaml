@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Container-Presenter"
+  short_description: "Separate data/state orchestration from presentational rendering"
+  default_prompt: "Use $luz-container-presenter to apply this design pattern to the current problem."

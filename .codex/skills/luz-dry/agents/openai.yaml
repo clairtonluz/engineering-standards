@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz DRY"
+  short_description: "Remove real duplication safely."
+  default_prompt: "Use $luz-dry to review this code for meaningful duplication."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Lazy Loading"
+  short_description: "Load data only when it is first needed"
+  default_prompt: "Use $luz-lazy-loading to apply this design pattern to the current problem."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Active Record"
+  short_description: "Combine data and persistence operations on the same object"
+  default_prompt: "Use $luz-active-record to apply this design pattern to the current problem."

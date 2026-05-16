@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Aggregate"
+  short_description: "Group domain objects into one consistency boundary"
+  default_prompt: "Use $luz-aggregate to apply this design pattern to the current problem."

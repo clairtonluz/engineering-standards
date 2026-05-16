@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Flux"
+  short_description: "Use one-way data flow with actions, dispatcher, stores, and v..."
+  default_prompt: "Use $luz-flux to apply this design pattern to the current problem."

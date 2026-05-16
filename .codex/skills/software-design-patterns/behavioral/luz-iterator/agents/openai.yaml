@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Iterator"
+  short_description: "Expose sequential access to a collection without exposing its..."
+  default_prompt: "Use $luz-iterator to apply this design pattern to the current problem."

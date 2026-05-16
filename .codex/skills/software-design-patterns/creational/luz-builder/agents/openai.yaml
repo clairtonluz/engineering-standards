@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Builder"
+  short_description: "Construct complex objects step by step while preserving valid..."
+  default_prompt: "Use $luz-builder to apply this design pattern to the current problem."

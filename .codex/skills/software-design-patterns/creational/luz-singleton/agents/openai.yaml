@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Singleton"
+  short_description: "Ensure one shared instance is used within a scope, preferably..."
+  default_prompt: "Use $luz-singleton to apply this design pattern to the current problem."

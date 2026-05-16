@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Unit of Work"
+  short_description: "Track changes in a business transaction and commit them as on..."
+  default_prompt: "Use $luz-unit-of-work to apply this design pattern to the current problem."

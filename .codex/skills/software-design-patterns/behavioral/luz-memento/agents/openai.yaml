@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Memento"
+  short_description: "Capture and restore an object's state without exposing internals"
+  default_prompt: "Use $luz-memento to apply this design pattern to the current problem."

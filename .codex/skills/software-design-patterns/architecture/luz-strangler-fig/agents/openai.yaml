@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Strangler Fig Pattern"
+  short_description: "Replace a legacy system incrementally by routing capabilities..."
+  default_prompt: "Use $luz-strangler-fig to apply this design pattern to the current problem."

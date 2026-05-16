@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Producer-Consumer"
+  short_description: "Decouple work producers from consumers through a queue"
+  default_prompt: "Use $luz-producer-consumer to apply this design pattern to the current problem."

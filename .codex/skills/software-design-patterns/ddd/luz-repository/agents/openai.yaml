@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Repository"
+  short_description: "Provide collection-like access to aggregates while hiding per..."
+  default_prompt: "Use $luz-repository to apply this design pattern to the current problem."

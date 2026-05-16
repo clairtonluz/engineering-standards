@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz OAuth2 Authorization Code"
+  short_description: "Use the authorization code flow so a client obtains tokens th..."
+  default_prompt: "Use $luz-oauth2-authorization-code to apply this design pattern to the current problem."

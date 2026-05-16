@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Reactor"
+  short_description: "Demultiplex events and dispatch them to non-blocking handlers"
+  default_prompt: "Use $luz-reactor to apply this design pattern to the current problem."

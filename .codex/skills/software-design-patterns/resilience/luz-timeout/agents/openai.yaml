@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Timeout"
+  short_description: "Bound how long work or external calls may wait"
+  default_prompt: "Use $luz-timeout to apply this design pattern to the current problem."

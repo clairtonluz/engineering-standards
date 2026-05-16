@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Modular Monolith"
+  short_description: "Build one deployable application with strong internal module..."
+  default_prompt: "Use $luz-modular-monolith to apply this design pattern to the current problem."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Leader-Follower"
+  short_description: "Coordinate worker threads so one waits for events while other..."
+  default_prompt: "Use $luz-leader-follower to apply this design pattern to the current problem."

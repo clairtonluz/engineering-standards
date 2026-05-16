@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Health Check"
+  short_description: "Expose liveness, readiness, and dependency health signals"
+  default_prompt: "Use $luz-health-check to apply this design pattern to the current problem."

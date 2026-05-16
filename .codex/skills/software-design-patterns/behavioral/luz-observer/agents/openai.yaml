@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Observer"
+  short_description: "Notify interested subscribers when state changes without coup..."
+  default_prompt: "Use $luz-observer to apply this design pattern to the current problem."

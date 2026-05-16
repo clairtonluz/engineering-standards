@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Microservices"
+  short_description: "Split a system into independently deployable services around..."
+  default_prompt: "Use $luz-microservices to apply this design pattern to the current problem."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Operator Pattern"
+  short_description: "Automate operational knowledge with a controller that reconci..."
+  default_prompt: "Use $luz-operator to apply this design pattern to the current problem."

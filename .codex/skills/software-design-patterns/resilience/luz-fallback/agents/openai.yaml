@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Fallback"
+  short_description: "Use an alternate response or path when the preferred path fails"
+  default_prompt: "Use $luz-fallback to apply this design pattern to the current problem."

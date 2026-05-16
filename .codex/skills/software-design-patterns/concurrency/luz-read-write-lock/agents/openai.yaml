@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Read-Write Lock"
+  short_description: "Allow many concurrent readers or one exclusive writer"
+  default_prompt: "Use $luz-read-write-lock to apply this design pattern to the current problem."

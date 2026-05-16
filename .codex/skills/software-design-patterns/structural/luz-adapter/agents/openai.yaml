@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Adapter"
+  short_description: "Translate one interface or contract into another without chan..."
+  default_prompt: "Use $luz-adapter to apply this design pattern to the current problem."

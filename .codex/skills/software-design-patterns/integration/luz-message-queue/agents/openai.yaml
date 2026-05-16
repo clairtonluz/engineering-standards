@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Message Queue"
+  short_description: "Buffer messages so producers and consumers are decoupled in time"
+  default_prompt: "Use $luz-message-queue to apply this design pattern to the current problem."

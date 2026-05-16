@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Data Mapper"
+  short_description: "Move data between persistence structures and domain objects w..."
+  default_prompt: "Use $luz-data-mapper to apply this design pattern to the current problem."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Rate Limiting"
+  short_description: "Restrict request rates to protect services and enforce fair use"
+  default_prompt: "Use $luz-rate-limiting to apply this design pattern to the current problem."

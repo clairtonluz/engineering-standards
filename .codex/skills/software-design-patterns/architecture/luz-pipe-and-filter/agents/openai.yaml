@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Pipe and Filter"
+  short_description: "Process data through independent filters connected by explici..."
+  default_prompt: "Use $luz-pipe-and-filter to apply this design pattern to the current problem."

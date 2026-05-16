@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Active Object"
+  short_description: "Expose asynchronous methods while executing work on the objec..."
+  default_prompt: "Use $luz-active-object to apply this design pattern to the current problem."

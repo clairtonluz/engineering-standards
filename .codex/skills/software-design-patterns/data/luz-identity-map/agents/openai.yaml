@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Identity Map"
+  short_description: "Keep one in-memory object per identity within a scope"
+  default_prompt: "Use $luz-identity-map to apply this design pattern to the current problem."

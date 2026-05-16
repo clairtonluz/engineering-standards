@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Template Method"
+  short_description: "Define an algorithm skeleton in a base class and let subclass..."
+  default_prompt: "Use $luz-template-method to apply this design pattern to the current problem."

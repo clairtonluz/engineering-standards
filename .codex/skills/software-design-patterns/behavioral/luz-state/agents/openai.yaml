@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz State"
+  short_description: "Encapsulate behavior that changes with an object's lifecycle..."
+  default_prompt: "Use $luz-state to apply this design pattern to the current problem."

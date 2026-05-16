@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Hexagonal Architecture / Ports and Adapters"
+  short_description: "Place application use cases at the center and connect externa..."
+  default_prompt: "Use $luz-hexagonal-architecture to apply this design pattern to the current problem."

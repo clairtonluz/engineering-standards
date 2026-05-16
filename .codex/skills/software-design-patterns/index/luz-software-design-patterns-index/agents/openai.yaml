@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Software Design Patterns Index"
+  short_description: "Browse design pattern skills by category."
+  default_prompt: "Use $luz-software-design-patterns-index to apply this design pattern to the current problem."

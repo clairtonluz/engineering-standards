@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz SOLID"
+  short_description: "Apply SOLID principles pragmatically."
+  default_prompt: "Use $luz-solid to review this design with SOLID principles."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Cache Aside"
+  short_description: "Let application code read from a cache and load/populate on m..."
+  default_prompt: "Use $luz-cache-aside to apply this design pattern to the current problem."

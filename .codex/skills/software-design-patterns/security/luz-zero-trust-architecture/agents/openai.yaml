@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Zero Trust Architecture"
+  short_description: "Design systems so every request is explicitly verified, least..."
+  default_prompt: "Use $luz-zero-trust-architecture to apply this design pattern to the current problem."

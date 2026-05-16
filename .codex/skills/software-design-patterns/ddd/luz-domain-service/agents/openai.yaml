@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Domain Service"
+  short_description: "Place domain behavior that does not naturally belong to one e..."
+  default_prompt: "Use $luz-domain-service to apply this design pattern to the current problem."

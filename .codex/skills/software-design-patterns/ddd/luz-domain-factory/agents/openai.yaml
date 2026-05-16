@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Domain Factory"
+  short_description: "Create domain objects or aggregates when construction is comp..."
+  default_prompt: "Use $luz-domain-factory to apply this design pattern to the current problem."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Redux Pattern"
+  short_description: "Manage client state through actions, pure reducers, and a sin..."
+  default_prompt: "Use $luz-redux to apply this design pattern to the current problem."

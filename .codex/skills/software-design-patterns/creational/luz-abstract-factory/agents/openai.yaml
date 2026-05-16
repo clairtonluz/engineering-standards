@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Abstract Factory"
+  short_description: "Create families of related objects through one factory interface"
+  default_prompt: "Use $luz-abstract-factory to apply this design pattern to the current problem."

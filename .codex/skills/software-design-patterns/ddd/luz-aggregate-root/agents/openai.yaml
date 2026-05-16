@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Aggregate Root"
+  short_description: "Expose the only external entry point for modifying an aggregate"
+  default_prompt: "Use $luz-aggregate-root to apply this design pattern to the current problem."

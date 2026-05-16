@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz KISS"
+  short_description: "Keep code simple and maintainable."
+  default_prompt: "Use $luz-kiss to simplify this design without losing behavior."

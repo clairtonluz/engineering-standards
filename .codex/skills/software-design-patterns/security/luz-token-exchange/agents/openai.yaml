@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Token Exchange"
+  short_description: "Exchange one security token for another token with a narrower..."
+  default_prompt: "Use $luz-token-exchange to apply this design pattern to the current problem."

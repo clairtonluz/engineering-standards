@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Value Object"
+  short_description: "Model an immutable concept identified by its values"
+  default_prompt: "Use $luz-value-object to apply this design pattern to the current problem."

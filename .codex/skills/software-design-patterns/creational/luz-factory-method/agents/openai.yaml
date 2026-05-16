@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Factory Method"
+  short_description: "Define a creation method so callers depend on a product inter..."
+  default_prompt: "Use $luz-factory-method to apply this design pattern to the current problem."

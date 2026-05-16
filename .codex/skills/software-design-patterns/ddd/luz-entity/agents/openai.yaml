@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Entity"
+  short_description: "Model a domain concept with stable identity and lifecycle"
+  default_prompt: "Use $luz-entity to apply this design pattern to the current problem."

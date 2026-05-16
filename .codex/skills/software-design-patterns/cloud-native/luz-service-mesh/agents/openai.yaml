@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Service Mesh"
+  short_description: "Use platform-managed sidecar or node proxies for service-to-s..."
+  default_prompt: "Use $luz-service-mesh to apply this design pattern to the current problem."

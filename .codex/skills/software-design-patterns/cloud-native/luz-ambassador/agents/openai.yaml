@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Ambassador"
+  short_description: "Use a helper container or proxy to manage outbound communicat..."
+  default_prompt: "Use $luz-ambassador to apply this design pattern to the current problem."

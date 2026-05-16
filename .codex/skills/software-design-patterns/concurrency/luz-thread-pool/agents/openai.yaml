@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Thread Pool"
+  short_description: "Reuse a bounded set of worker threads to execute tasks"
+  default_prompt: "Use $luz-thread-pool to apply this design pattern to the current problem."

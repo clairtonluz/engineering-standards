@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Publish-Subscribe"
+  short_description: "Publish one event to multiple independent subscribers"
+  default_prompt: "Use $luz-publish-subscribe to apply this design pattern to the current problem."

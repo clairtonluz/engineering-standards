@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Retry"
+  short_description: "Repeat a failed operation under bounded, safe conditions"
+  default_prompt: "Use $luz-retry to apply this design pattern to the current problem."

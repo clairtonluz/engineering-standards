@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz API Gateway Security"
+  short_description: "Apply consistent edge security policies at the API gateway"
+  default_prompt: "Use $luz-api-gateway-security to apply this design pattern to the current problem."

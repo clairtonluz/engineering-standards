@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Sidecar"
+  short_description: "Run a helper container alongside an application container to..."
+  default_prompt: "Use $luz-sidecar to apply this design pattern to the current problem."

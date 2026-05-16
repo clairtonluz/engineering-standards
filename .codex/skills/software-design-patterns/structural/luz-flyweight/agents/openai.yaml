@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Flyweight"
+  short_description: "Share immutable intrinsic state across many fine-grained objects"
+  default_prompt: "Use $luz-flyweight to apply this design pattern to the current problem."

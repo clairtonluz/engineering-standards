@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Init Container"
+  short_description: "Run setup containers to completion before starting the main a..."
+  default_prompt: "Use $luz-init-container to apply this design pattern to the current problem."

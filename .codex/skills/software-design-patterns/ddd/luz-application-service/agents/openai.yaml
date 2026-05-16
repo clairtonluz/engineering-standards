@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Application Service"
+  short_description: "Orchestrate a use case, transaction, and boundary calls witho..."
+  default_prompt: "Use $luz-application-service to apply this design pattern to the current problem."

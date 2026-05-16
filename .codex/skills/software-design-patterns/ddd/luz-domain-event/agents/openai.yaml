@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Domain Event"
+  short_description: "Represent a meaningful domain fact that happened"
+  default_prompt: "Use $luz-domain-event to apply this design pattern to the current problem."

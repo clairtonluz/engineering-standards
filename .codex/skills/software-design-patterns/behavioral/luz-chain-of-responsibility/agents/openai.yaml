@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Chain of Responsibility"
+  short_description: "Pass a request through a sequence of handlers until one handl..."
+  default_prompt: "Use $luz-chain-of-responsibility to apply this design pattern to the current problem."

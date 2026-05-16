@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz Atomic Design"
+  short_description: "Organize UI systems into atoms, molecules, organisms, templat..."
+  default_prompt: "Use $luz-atomic-design to apply this design pattern to the current problem."
