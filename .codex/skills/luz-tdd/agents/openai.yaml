@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luz TDD"
+  short_description: "Apply test-first red-green-refactor"
+  default_prompt: "Use $luz-tdd to implement this change with test-first red-green-refactor."
